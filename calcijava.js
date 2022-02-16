@@ -36,17 +36,17 @@ function formtable()
 }
 
 function clr() {
-     	document.getElementById("result").value="";
+     	document.getElementById("Result").value="";
 }
 
 function show(input) {        
-    	 document.getElementById("result").value+=input;
+    	 document.getElementById("Result").value+=input;
          console.log("ans",document.getElementById("result").value);
 }
 
 function cal() {
-	 var out=eval(document.getElementById("result").value);
-	document.getElementById("result").value=out;
-    console.log("res",document.getElementById("result").value);
+	 var out=eval(document.getElementById("Result").value);
+	document.getElementById("Result").value=out;
+    console.log("res",document.getElementById("Result").value);
 }
 
